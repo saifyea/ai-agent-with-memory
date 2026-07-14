@@ -21,3 +21,65 @@ Instead of relying only on an LLM, the agent:
 - Maintains conversation history during the session.
 - Generates accurate, context-aware responses using Claude.
 - Reduces hallucinations by grounding responses in business data.
+---
+
+## ✨ Features
+
+- 🤖 AI-powered customer support assistant
+- 🧠 Conversational memory for multi-turn interactions
+- 📚 Retrieval-Augmented Generation (RAG)
+- 🛍️ Product catalog search
+- ❓ FAQ retrieval
+- 📜 Store policy lookup
+- 💬 Context-aware responses using Claude API
+- ⚡ Fast and interactive command-line interface
+- 🔒 Secure API key management with `.env`
+
+---
+
+## 🏗️ System Architecture
+
+```text
+                User Question
+                      │
+                      ▼
+        Load Conversation History
+                      │
+                      ▼
+      Search Knowledge Base (RAG)
+      ├── Product Catalog
+      ├── FAQ
+      └── Store Policy
+                      │
+                      ▼
+      Build Context + Conversation
+                      │
+                      ▼
+          Anthropic Claude API
+                      │
+                      ▼
+            AI Generated Response
+                      │
+                      ▼
+      Update Conversation Memory
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+ai-agent-with-memory/
+│
+├── main.py
+├── README.md
+├── requirements.txt
+├── .env.example
+│
+├── knowledge_base/
+│   ├── product_catalog.txt
+│   ├── faq.txt
+│   └── store_policy.txt
+│
+└── .gitignore
+```
