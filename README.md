@@ -160,3 +160,87 @@ The knowledge base contains real-world business information written in Bengali:
 - 🇧🇩 Store policies
 
 The agent can retrieve Bengali information and generate context-aware responses using an LLM.
+
+---
+
+## 💬 Example Conversation
+
+The AI Agent can answer customer queries using information retrieved from the Bengali knowledge base while maintaining conversation context.
+
+### 🛍️ Product Query
+
+**User:**
+```
+Flash Cards এর দাম কত?
+```
+
+**AI Agent:**
+```
+Flash Cards এর দাম: ২৫০ টাকা
+
+বৈশিষ্ট্য:
+- বয়স: ৩-৬ বছর
+- ৩০টি রঙিন কার্ড প্রতিটি সেটে
+- বর্ণমালা, সংখ্যা, ফল, প্রাণী শেখায়
+- টেকসই laminated কার্ড
+```
+
+---
+
+### 🧠 Memory-based Follow-up Question
+
+**User:**
+```
+৩টা কিনলে কত লাগবে?
+```
+
+**AI Agent:**
+```
+৩টা Flash Cards এর মোট দাম: ৭৫০ টাকা
+(২৫০ টাকা × ৩ = ৭৫০ টাকা)
+```
+
+The agent understands the previous conversation context and answers based on the previous product discussion.
+
+---
+
+### 📦 Delivery Information
+
+**User:**
+```
+সিলেটে delivery কতদিনে?
+```
+
+**AI Agent:**
+```
+সিলেটে ডেলিভারি: ৩-৫ দিনের মধ্যে।
+
+আপনার Flash Cards অর্ডার করলে ৩-৫ দিনের মধ্যে পৌঁছে যাবে।
+```
+
+---
+
+### 🔄 Policy Retrieval
+
+**User:**
+```
+Return policy কী?
+```
+
+**AI Agent:**
+```
+Saif's Kids Store এর Return Policy:
+
+- ৭ দিনের মধ্যে রিটার্ন করা যাবে
+- পণ্য অবশ্যই অব্যবহৃত থাকতে হবে
+- Original packaging এ থাকতে হবে
+```
+
+---
+
+This demonstrates:
+
+✅ RAG-based knowledge retrieval  
+✅ Conversational memory  
+✅ Bengali language support  
+✅ Business-specific AI assistance
