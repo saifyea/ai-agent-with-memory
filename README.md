@@ -151,9 +151,12 @@ python main.py
 
 ## 🌐 Language Support
 
-This AI Agent works with Bengali business knowledge sources, demonstrating RAG capabilities with localized data.
+This AI Agent demonstrates RAG capabilities using Bengali business knowledge sources.
 
-Knowledge sources include:
-- Product catalog
-- FAQs
-- Store policies
+The knowledge base contains real-world business information written in Bengali:
+
+- 🇧🇩 Product catalog
+- 🇧🇩 Frequently Asked Questions (FAQ)
+- 🇧🇩 Store policies
+
+The agent can retrieve Bengali information and generate context-aware responses using an LLM.
