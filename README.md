@@ -83,3 +83,68 @@ ai-agent-with-memory/
 │
 └── .gitignore
 ```
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/saifyea/ai-agent-with-memory.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd ai-agent-with-memory
+```
+
+---
+
+### 2. Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+
+**Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+**Mac/Linux:**
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4. Configure Environment Variables
+
+Create a `.env` file:
+
+```bash
+ANTHROPIC_API_KEY=your_api_key_here
+```
+
+Replace `your_api_key_here` with your Anthropic API key.
+
+---
+
+## ▶️ Run the Application
+
+```bash
+python main.py
+```
