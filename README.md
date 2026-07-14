@@ -71,17 +71,19 @@ Instead of relying only on an LLM, the agent:
 ```text
 ai-agent-with-memory/
 │
-├── main.py
 ├── README.md
+├── main.py
 ├── requirements.txt
 ├── .env.example
+├── .gitignore
 │
 ├── knowledge_base/
-│   ├── product_catalog.txt (Bangla)
-│   ├── faq.txt             (Bangla)
-│   └── store_policy.txt     (Bangla)
+│   ├── product_catalog.txt  BD Bangla
+│   ├── faq.txt              BD Bangla
+│   └── store_policy.txt     BD Bangla
 │
-└── .gitignore
+└── assets/
+    └── demo.png
 ```
 ---
 
@@ -289,3 +291,7 @@ I combine 17+ years of enterprise IT experience with modern AI technologies to b
 https://www.linkedin.com/in/saifuddin-yeahea-b557a1109
 
 🚀 Building AI solutions through my #100DaysOfAI journey
+
+## 📸 Demo
+
+![AI Agent Demo](assets/demo.png)
