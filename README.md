@@ -77,9 +77,9 @@ ai-agent-with-memory/
 ├── .env.example
 │
 ├── knowledge_base/
-│   ├── product_catalog.txt
-│   ├── faq.txt
-│   └── store_policy.txt
+│   ├── product_catalog.txt (Bangla)
+│   ├── faq.txt             (Bangla)
+│   └── store_policy.txt     (Bangla)
 │
 └── .gitignore
 ```
@@ -148,3 +148,12 @@ Replace `your_api_key_here` with your Anthropic API key.
 ```bash
 python main.py
 ```
+
+## 🌐 Language Support
+
+This AI Agent works with Bengali business knowledge sources, demonstrating RAG capabilities with localized data.
+
+Knowledge sources include:
+- Product catalog
+- FAQs
+- Store policies
